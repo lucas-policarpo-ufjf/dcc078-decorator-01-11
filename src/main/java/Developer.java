@@ -1,10 +1,11 @@
 public class Developer implements IDeveloper {
-    public float salary;
+    private float salary;
 
-    public Developer(){}
+    public Developer() {
+    }
 
-    public Developer(float salary){
-        this.salary=salary;
+    public Developer(float salary) {
+        this.salary = salary;
     }
 
     public float getSalary() {
